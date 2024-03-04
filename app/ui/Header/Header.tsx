@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Container from "../Container";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { MdClose } from "react-icons/md";
 
 import style from "./Header.module.scss";
 import MobileMenu from "../MobileMenu/MobileMenu";
@@ -36,7 +37,11 @@ const Header = () => {
           className={style.button}
           onClick={mobileMenuToggle}
         >
-          <GiHamburgerMenu size={26} />
+          {isMobileMenuOpen ? (
+            <MdClose size={26} />
+          ) : (
+            <GiHamburgerMenu size={26} />
+          )}
         </button>
       </Container>
     </header>
