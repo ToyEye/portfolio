@@ -1,0 +1,47 @@
+@import "/app/style/variables.scss";
+
+.avatarWrapper {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.greetings {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.whoI {
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 15px;
+}
+
+.about {
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.downloadLink {
+  display: block;
+  margin: 0 auto;
+  max-width: 160px;
+  padding: 15px 15px;
+  text-align: center;
+  color: $primaryLightColor;
+  background-color: $accentColor;
+  border-radius: 12px;
+  transition: 450ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+  &:hover,
+  &:focus {
+    background-color: $accentColorOpacity;
+  }
+}

@@ -1,3 +1,9 @@
+import AboutMe from "./ui/AboutMe/AboutMe";
+
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <AboutMe />
+    </main>
+  );
 }

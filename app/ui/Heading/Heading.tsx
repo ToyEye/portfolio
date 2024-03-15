@@ -5,7 +5,7 @@ const Heading = ({
   text,
   className = "",
 }: {
-  tag: keyof JSX.IntrinsicElements;
+  tag?: keyof JSX.IntrinsicElements;
   text: string;
   className?: string;
 }) => {
