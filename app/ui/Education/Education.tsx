@@ -8,7 +8,7 @@ import educationData from "./data/educationData.json";
 
 const Education = () => {
   return (
-    <Section>
+    <Section id="education">
       <Heading text="EDUCATION" tag="h2" className={style.title} />
 
       <ul className={style.list}>

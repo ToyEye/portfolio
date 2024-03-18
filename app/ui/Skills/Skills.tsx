@@ -12,7 +12,7 @@ import language from "./data/language.json";
 
 const Skills = () => {
   return (
-    <Section>
+    <Section id="skills">
       <div className={style.skillsWrapper}>
         <div>
           <Heading text="Tech Skills" className={style.skillsTitle} />

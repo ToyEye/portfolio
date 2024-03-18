@@ -10,7 +10,7 @@ import Text from "../Text/Text";
 
 const AboutMe = () => {
   return (
-    <Section>
+    <Section id="about">
       <div className={style.avatarWrapper}>
         <Image src={avatar} alt="Oleksii Korotenko" fill />
       </div>

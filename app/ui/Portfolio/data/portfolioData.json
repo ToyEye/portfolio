@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Be Better",
+    "pathOnLive": "https://be-better.today",
+    "pathOnGH": "https://github.com/GoWeb-Internship/be-better",
+    "description": "Mobile-first adaptive landing page. Application for ordering coach services. Work in a team using Scrum.",
+    "technologies": "Gatsby, Tailwindcss, Swiper, yup, i18next, react-hook-form, netlify cms",
+    "image": "/portfolio/be-better.jpg"
+  },
+  {
+    "name": "Mimino",
+    "pathOnLive": "https://mimino-git-master-toyeye.vercel.app",
+    "pathOnGH": "https://github.com/ToyEye/mimino",
+    "description": "Mobile-first adaptive. Application for ordering rooms in restarant-honel complex.",
+    "technologies": "NextJS, Tailwindcss, Swiper, classnames",
+    "image": "/portfolio/mimino.jpg"
+  },
+  {
+    "name": "Books Reading",
+    "pathOnLive": "https://books-reading-react-node.netlify.app",
+    "pathOnGH": "https://github.com/IlyaKaplan2002/node-react_project",
+    "description": "Mobile-first adaptive. Application for keeping statistics of books read. Work in a team using Scrum.",
+    "technologies": "HTML5, CSS3, SASS, React, Redux, API, NodeJS, Express, MongoDB",
+    "image": "/portfolio/book-reading.jpg"
+  },
+
+  {
+    "name": "Movies",
+    "pathOnLive": "https://toyeye.github.io/movies",
+    "pathOnGH": "https://github.com/ToyEye/movies",
+    "description": "The application works with moviesdb API. An application for viewing information about films, actors and reviews from critics. You can add movies to your library.",
+    "technologies": "HTML5, CSS3, SASS, React, Redux, API, react-router-dom",
+    "image": "/portfolio/movies.jpg"
+  }
+]

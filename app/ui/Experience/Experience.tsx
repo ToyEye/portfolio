@@ -16,7 +16,7 @@ const Experience = () => {
   ];
 
   return (
-    <Section>
+    <Section id="experience">
       <Heading tag="h2" text="WORK EXPERIENCE" className={style.title} />
       <ul className={style.list}>
         {workExp.map(({ id, work }) => (
