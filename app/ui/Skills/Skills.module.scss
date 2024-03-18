@@ -1,0 +1,17 @@
+@import "/app/style/variables.scss";
+
+.skillsWrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px 20px;
+
+  @media screen and (min-width: $tablet-size) {
+    width: 760px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.skillsTitle {
+  margin-bottom: 25px;
+}

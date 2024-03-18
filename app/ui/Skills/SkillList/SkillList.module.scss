@@ -1,0 +1,23 @@
+@import "/app/style/variables.scss";
+
+.skillListStyled {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+
+  column-gap: 35px;
+  row-gap: 25px;
+
+  list-style: circle;
+  list-style-position: inside;
+
+  li {
+    color: $accentColorOpacity;
+
+    span {
+      color: $mainTextColor;
+    }
+  }
+}
+.lang {
+  grid-template-columns: 1fr;
+}
