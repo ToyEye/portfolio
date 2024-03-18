@@ -1,0 +1,27 @@
+@import "/app/style/variables.scss";
+
+.title {
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.subtitle {
+  margin-bottom: 5px;
+  color: $mainTextColor;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+
+  list-style-position: inside;
+  list-style: circle;
+  color: $accentColorOpacity;
+}
+
+.text {
+  font-size: 12px;
+}
